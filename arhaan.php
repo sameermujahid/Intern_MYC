@@ -7,7 +7,7 @@ table, th, td {
 </style>
 <body>
 
-<h2>Arhaan</h2>
+<h2>Arhaan Mohammad</h2>
 
 <table style="width:100%">
   <tr>
