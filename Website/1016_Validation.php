@@ -6,7 +6,7 @@ $username = $_POST['uname'];
 $password = $_POST['user_password'];
 
 
-if($username == 'jahnavi@gmail.com' && $password == 'admin'){
+if($username == 'jahnavi@gmail.com' && $password == 'junnu'){
     header('Location: http://localhost/jahnavi_24apr/1016_index.php');
 
 }   
