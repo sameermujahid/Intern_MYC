@@ -3,7 +3,7 @@
 $username = $_POST['uname'];
 $password = $_POST['user_password'];
 
-if($username == 'sameer' && $password == 'sameer'){
+if($username == 'lizy' && $password == 'lizy'){
     header('Location: http://localhost/demo/hello.php');
 
 }
