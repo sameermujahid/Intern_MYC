@@ -1,14 +1,16 @@
-<?php 
+<!DOCTYPE html>
+<html>
+<body>
 
-$username = $_POST['uname'];
-$password = $_POST['user_password'];
+<h2>Login Page</h2>
 
-if($username == 'lizy' && $password == 'lizy'){
-    header('Location: http://localhost/demo/hello.php');
+<form action= "login_validation.php" method="post">
+  <label for="fname">username</label><br>
+  <input type="text" id="uname" name="uname" ><br>
+  <label for="lname">password</label><br>
+  <input type="password" id="user_password" name="user_password" ><br><br>
+  <input type="submit" value="Login">
+</form> 
 
-}
-else {
-  echo "invalid login";
-}
-
-?>
+</body>
+</html>
